@@ -1,0 +1,19 @@
+Heights
+-
+Rank INTEGER
+Country_Name VARCHAR FK - Olympic.Country_Name
+Male_Height_Cm FLOAT
+Female_Height_Cm FLOAT
+Male_Heigh_Ft FLOAT
+Female_Height_Ft FLOAT
+
+Olympic
+-
+Rank INTEGER
+Country_Name VARCAHR PK
+Gold_medal INT
+Silver_medal INT
+Bronze_medal INT
+Total INT
+Rank_by_total INT
+Country_Code
